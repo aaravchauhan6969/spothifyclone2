@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-color: #020617;
+}
+
+.navbar h2{
+    color: #38bdf8;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 40px;
+}
+
+.hero-text{
+    max-width: 60%;
+}
+
+.hero-text h1{
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.hero-text span{
+    color: #38bdf8;
+}
+
+.hero-text h3{
+    font-weight: normal;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #cbd5f5;
+}
+
+.hero-text button{
+    padding: 12px 30px;
+    background-color: #38bdf8;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #020617;
+    transition: 0.3s;
+}
+
+.hero-text button:hover{
+    background-color: #0ea5e9;
+}
+
+/* Image */
+.hero-img img{
+    width: 320px;
+    border-radius: 50%;
+    border: 6px solid #38bdf8;
+}
+
+/* About Section */
+.about{
+    padding: 70px 50px;
+    background-color: #020617;
+}
+
+.about h2{
+    color: #38bdf8;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about p{
+    line-height: 1.8;
+    font-size: 16px;
+    color: #cbd5f5;
+}
+
+/* Skills */
+.skills{
+    padding: 70px 50px;
+}
+
+.skills h2{
+    color: #38bdf8;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.skill-box{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    background-color: #020617;
+    padding: 15px 25px;
+    border-radius: 8px;
+   
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>My Portfolio</h2>
+    <ul>
+        <a href="example1.html">Home</a>
+        <li>Skills</li>
+        <li>Projects</li>
+    </ul>
+</div>
+
+<!-- Hero Section -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Aarav Chauhan</span></h1>
+        <h3>Web Developer & Tech Enthusiast</h3>
+        <p>
+            I am a passionate web developer with a strong interest in building
+            clean, responsive, and user-friendly websites. I enjoy turning
+            complex problems into simple, beautiful, and intuitive designs.
+            Currently, I am improving my skills in front-end development and
+            learning modern web technologies.
+        </p>
+        <p>
+            My goal is to become a full-stack developer and work on real-world
+            projects that create value and solve practical problems.
+        </p>
+        <button>Download Resume</button>
+    </div>
+
+    <div class="hero-img">
+        <img src="WhatsApp Image 2026-01-29 at 7.16.43 PM.jpeg" alt="Profile Image">
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="about">
+    <h2>About Me</h2>
+    <p>
+        I have experience working with HTML, CSS, and basic JavaScript to build
+        static and dynamic websites. I focus on writing clean code and following
+        best practices. I am constantly learning new technologies and improving
+        my skills through practice and projects.
+    </p>
+    <p>
+        Apart from coding, I enjoy learning about new tech trends and improving
+        my problem-solving skills.
+    </p>
+</div>
+
+<!-- Skills Section -->
+<div class="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Basic MongoDB</div>
+        <div class="skill">Git & GitHub</div>
+    </div>
+</div>
+
+<footer>
+    © 2026 Your Name | All Rights Reserved
+</footer>
+
+</body>
+</html>
